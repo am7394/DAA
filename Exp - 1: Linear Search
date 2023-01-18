@@ -1,5 +1,5 @@
 l=[1,4,7,2,8,5]
-key=input("Enter Element to Search:")
+key=int(input("Enter Element to Search:"))
 for i in range(0,len(l)):
   if (l[i]==key):
     print("Element Found at index",i)
