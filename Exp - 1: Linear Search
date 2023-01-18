@@ -3,5 +3,6 @@ key=int(input("Enter Element to Search:"))
 for i in range(0,len(l)):
   if (l[i]==key):
     print("Element Found at index",i)
-  else:
+    break
+else:
     print("Element Does not Exist")
