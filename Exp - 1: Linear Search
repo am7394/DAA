@@ -1,4 +1,10 @@
-l=[1,4,7,2,8,5]
+l=[]
+e=int(input("Enter number of Elements:"))
+a=0
+while(a<e):
+    i=int(input("Enter List Elements:"))
+    l.append(i)
+    a+=1
 key=int(input("Enter Element to Search:"))
 for i in range(0,len(l)):
   if (l[i]==key):
